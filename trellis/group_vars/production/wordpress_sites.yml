@@ -4,12 +4,12 @@
 wordpress_sites:
   hpecology.co.uk:
     site_hosts:
-    - canonical: hpecology.co.uk
-      redirects:
-      - www.hpecology.co.uk
+      - canonical: hpecology.co.uk
+        redirects:
+          - www.hpecology.co.uk
     local_path: ../site
-    branch: master
-    repo: git@github.com:example/example.com.git
+    branch: main
+    repo: git@github.com:willnjl/hpecology.co.uk.git
     repo_subtree_path: site
     multisite:
       enabled: false
