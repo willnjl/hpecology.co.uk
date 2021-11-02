@@ -1,0 +1,42 @@
+$primary: #6c9a8b;
+$primary--hover: #6c9a8b;
+$secondary: #eed2cc;
+$secondary--hover: #eed2cc;
+$text-default: #333;
+$vanilla: #f0f0f0;
+$black: #000;
+$offblack: #101010;
+$grey: #f3f3f3;
+$text-grey: #959595;
+
+:root {
+  background-color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+.bg-primary {
+  background-color: $primary;
+}
+.bg-secondary {
+  background-color: $secondary;
+}
+
+.bg-vanilla {
+  background-color: $vanilla;
+}
+
+.bg-grey {
+  background-color: $grey;
+}
+
+.text-white {
+  color: white;
+}
+.text-primary {
+  color: $primary;
+}
+.text-secondary {
+  color: $secondary;
+}

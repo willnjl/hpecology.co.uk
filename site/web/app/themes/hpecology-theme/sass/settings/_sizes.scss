@@ -1,0 +1,19 @@
+.h-full {
+  height: 100%;
+}
+
+.w-half {
+  width: 90%;
+}
+
+@media screen and (min-width: $bp-s) {
+  .w-half {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: $bp-m) {
+  .w-half {
+    width: 50%;
+  }
+}

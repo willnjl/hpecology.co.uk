@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap");
+
+$font-primary: "Montserrat", sans-serif; //, Helvetica, arial, sans-serif;
+$font-secondary: arial, cursive;
+$text-head: 4rem;
+$text-xl: 1.6rem;
+$text-large: 1.3rem;
+$text-small: 0.9rem;
+
+$line-height: 1.5rem;
+
+body {
+  color: $text-default;
+  font-weight: 200;
+  font-family: $font-primary;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+p {
+  line-height: $line-height;
+
+  margin-bottom: 1rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #fff;
+  margin: 1em 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 15px;
+}
+
+@media screen and (min-width: $bp-s) {
+  html,
+  body {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: $bp-m) {
+  html,
+  body {
+    font-size: 18px;
+  }
+}
+
+.text-head {
+  font-size: $text-head;
+}
+.text-xl {
+  font-size: $text-xl;
+}
+.text-l {
+  font-size: $text-large;
+  line-height: 1.75rem;
+}
+.text-n {
+  font-size: 1rem;
+  line-height: $line-height;
+}
+.text-s {
+  font-size: 0.75rem;
+}
+
+.font-secondary {
+  font-family: $font-secondary;
+}
+.lh {
+  line-height: $line-height;
+}

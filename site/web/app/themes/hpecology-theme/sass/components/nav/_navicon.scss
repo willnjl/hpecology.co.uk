@@ -1,0 +1,33 @@
+/*
+------------------------------------------------
+   Navicon
+------------------------------------------------
+*/
+
+#navicon:focus {
+  outline: 0;
+}
+
+#navicon {
+  margin-left: auto;
+  z-index: 9999;
+}
+
+@media screen and (min-width: $bp-l) {
+  #navicon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $bp-s) {
+  // #navicon {
+  //   background-color: $primary-dark;
+  //   box-shadow: 2px 2px $primary;
+  // }
+  // // .hamburger-inner,
+  // // .hamburger-inner::after,
+  // // .hamburger-inner::before {
+  // //   color: white;
+  // //   background-color: white !important;
+  // // }
+}

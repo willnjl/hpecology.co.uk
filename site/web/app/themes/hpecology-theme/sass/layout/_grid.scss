@@ -1,0 +1,28 @@
+.grid {
+  // Fallback
+  display: flex;
+  flex-direction: column;
+}
+.grid-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  li {
+    border: 1px solid #ccc;
+    img {
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: $bp-s) {
+  .grid {
+    display: grid;
+  }
+}
+
+@media screen and (min-width: $bp-m) {
+  .grid-logo {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

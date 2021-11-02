@@ -1,0 +1,94 @@
+// Sidenav Quick Settings
+$sidenav-bg: #eee;
+$sidenav-pad: 2rem 0;
+$sidenav-fontsize: $text-large;
+
+// Link Quick Settings
+$link-col: $primary;
+$link-col--active: white;
+$link-pad: 2vh 0;
+
+@media screen and (max-width: $bp-l) {
+  .sidenav {
+    max-width: 400px;
+    border-right: #333 solid 4px;
+    background-color: $sidenav-bg;
+    font-size: $sidenav-fontsize;
+    padding: $sidenav-pad;
+  }
+
+  .sidenav {
+    .page_item {
+      margin-left: auto;
+      text-align: right;
+      border-bottom: 1px solid $primary;
+      min-width: 200px;
+      a {
+        &:hover {
+          padding-right: 1rem;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+
+  // logo settigns
+  .sidenav {
+    .site-branding {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 9999;
+      margin: 2rem 2rem;
+      display: block;
+      margin-left: auto;
+    }
+  }
+  .sidenav {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: -9999px;
+    width: 0px;
+    height: 100%;
+    z-index: 9999;
+    ul {
+      height: 100%;
+    }
+    .page_item {
+      color: $link-col;
+      transition: 0.2s;
+      a {
+        padding: $link-pad;
+        display: block;
+        text-decoration: none;
+        &:hover {
+          padding-right: 1rem;
+          transition: 0.2s;
+        }
+      }
+    }
+    .page_item:hover,
+    .current_page_item {
+      color: $link-col--active;
+      transition: 0.2s;
+    }
+  }
+
+  .sidenav-open {
+    .sidenav {
+      padding: 2rem 2rem;
+      left: 0;
+      width: 100%;
+      transition: width 0.5s, padding 0.5s;
+    }
+  }
+}
+
+@media screen and (max-width: $bp-s) {
+  .sidenav-open {
+    .sidenav {
+      padding: 5rem 2rem;
+    }
+  }
+}

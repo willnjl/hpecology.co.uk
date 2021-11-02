@@ -1,0 +1,25 @@
+.home__profile {
+  border-radius: 100%;
+  max-width: 16rem;
+  border: 0.45rem solid $primary;
+  margin: auto;
+  display: block;
+}
+
+.home__intro {
+  p {
+    // text-align: center;
+    max-width: 32rem;
+  }
+}
+@media screen and (min-width: $bp-l) {
+  .home__profile {
+    margin: 0 auto;
+  }
+  .home__intro {
+    p {
+      //   max-width: unset;
+      text-align: left;
+    }
+  }
+}

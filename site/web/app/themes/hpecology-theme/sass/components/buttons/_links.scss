@@ -1,0 +1,26 @@
+a.link,
+.link {
+  color: $primary;
+  text-decoration: underline;
+}
+
+a.link-primary {
+  background-color: white;
+  padding: 0.75rem 1rem;
+  color: $primary;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  i {
+    transform: translate(0px);
+    transition: 0.23s ease-in-out;
+    margin-left: 1rem;
+  }
+
+  &:hover {
+    text-decoration: none;
+    i {
+      transform: translate(4px);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import "rules";
+@import "shades";
+
+.b-round {
+  border-radius: 100%;
+}
+
+.border-primary {
+  border: 2px solid $primary;
+}
