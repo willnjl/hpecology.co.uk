@@ -1036,12 +1036,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/willnjl/hpecology-theme.git",
-                "reference": "2313b02c33111ff01b3c4d1070f529e246d0ebc7"
+                "reference": "c0f2f442f5ab6ae79ddb8c6fbd5ed29ef3b11f73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willnjl/hpecology-theme/zipball/2313b02c33111ff01b3c4d1070f529e246d0ebc7",
-                "reference": "2313b02c33111ff01b3c4d1070f529e246d0ebc7",
+                "url": "https://api.github.com/repos/willnjl/hpecology-theme/zipball/c0f2f442f5ab6ae79ddb8c6fbd5ed29ef3b11f73",
+                "reference": "c0f2f442f5ab6ae79ddb8c6fbd5ed29ef3b11f73",
                 "shasum": ""
             },
             "require": {
@@ -1068,7 +1068,7 @@
                 "source": "https://github.com/willnjl/hpecology-theme/tree/1.0.0",
                 "issues": "https://github.com/willnjl/hpecology-theme/issues"
             },
-            "time": "2021-11-02T13:57:12+00:00"
+            "time": "2021-11-18T13:00:16+00:00"
         },
         {
             "name": "wpackagist-plugin/classic-editor",
