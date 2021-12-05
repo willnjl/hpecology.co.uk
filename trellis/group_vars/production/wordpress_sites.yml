@@ -8,7 +8,7 @@ wordpress_sites:
         redirects:
           - www.hpecology.co.uk
     local_path: ../site
-    branch: bugfix/template-selection
+    branch: main
     repo: git@github.com:willnjl/hpecology.co.uk.git
     repo_subtree_path: site
     multisite:
