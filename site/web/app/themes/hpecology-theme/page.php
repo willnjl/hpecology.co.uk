@@ -19,7 +19,6 @@ get_header();
 
 <main id="primary" class="site-main">
     <?php while(have_posts()) : the_post(); ?>
-        <?= bloginfo('template_url'); ?>
 	    <?php get_template_part('template-parts/content', $post->post_name); ?>
     <?php endwhile; ?>
 </main><!-- #main -->
