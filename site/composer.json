@@ -33,6 +33,7 @@
       "type": "vcs",
       "url" : "git@github.com:willnjl/hpecology-theme.git"
     }
+    
   ],
   "require": {
     "php": ">=7.1",
@@ -44,7 +45,8 @@
     "roots/wordpress": "5.8",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/classic-editor": "^1.6"
+    "wpackagist-plugin/classic-editor": "^1.6",
+    "willnjl/hpecology-theme": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.0",
