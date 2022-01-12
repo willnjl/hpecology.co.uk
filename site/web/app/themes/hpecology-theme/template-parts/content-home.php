@@ -2,6 +2,8 @@
 
     $banner = get_field('banner');
 
+
+    $cv = get_field('cv_url');
 ?>
 
 <section class="hero jarallax">
@@ -61,7 +63,7 @@
         <?php endwhile ; ?>
         </ul>
         <div class="flex">
-            <a href="#" class="link-primary ml-auto">Find out how <i class="fa fa-chevron-right"></i></a>
+            <a href="<?= esc_url($cv); ?>" target="_blank"  class="link-primary ml-auto">Find out how <i class="fa fa-chevron-right"></i></a>
         </div>
     </div>
 </section>
@@ -99,7 +101,7 @@
                         <i class="fa fa-first-aid"></i><span class="block"><span class="font-semibold">Outdoor Risks First Aid Training</span> - Valid until June 2022</span>
                     </li>
                 </ul>
-                <div class="fade fade-in swiper-right trans"><a href="#" class="link-primary">Download CV <i class="fa fa-chevron-right"></i></a></div>
+                <div class="fade fade-in swiper-right trans"><a href="<?= esc_url($cv) ?>" target="_blank" class="link-primary">Download CV <i class="fa fa-chevron-right"></i></a></div>
             </div>
         </ul>
     </div>
