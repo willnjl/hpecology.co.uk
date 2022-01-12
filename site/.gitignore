@@ -25,3 +25,4 @@ web/.htaccess
 wp-cli.local.yml
 
 !/web/app/plugins/advanced-custom-fields
+!/web/app/plugins/advanced-custom-fields-pro
