@@ -39,7 +39,7 @@ footer,
     padding: 4rem 4vw;
   }
   .header-pad {
-    padding: 2rem 4vw;
+    padding: 1rem 4vw;
   }
 }
 @media screen and (max-width: $bp-m) {
@@ -50,7 +50,7 @@ footer,
   }
 
   .header-pad {
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
   }
 }
 @media screen and (max-width: $bp-s) {
@@ -60,6 +60,6 @@ footer,
     padding: 4rem 1rem;
   }
   .header-pad {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
 }

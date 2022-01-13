@@ -22,34 +22,10 @@
 
 <body class="">
 	<div id="page" class="site">
-	<header id="masthead" class="site-header header-pad">
-		<div class="wrap">
-			<div class="flex">
-				<div class="site-branding">
-					<a href="/">
-						<img src="" alt="" srcset="">
-					</a>				
-				</div><!-- .site-branding -->
-				<div class="sidenav">
-						<nav id="site-navigation" class="main-navigation flex">
-								<?php
-									wp_nav_menu(
-										array(
-											'theme_location' => 'menu-1',
-											'menu'        => 'primary-menu',
-											)
-										);
-									?>
-						</nav>
-				</div><!-- sidenav -->
-				<button class="hamburger hamburger--squeeze" type="button" id="navicon">
-					<div class="container">
-						<span class="hamburger-box">
-							<span class="hamburger-inner"></span>
-						</span>
-					</div>
-				</button>
-			</div><!--flex -->
-		</div> <!-- wrap -->
-		<div class="bg-img" id="nav-mask"></div>
-	</header><!-- #masthead -->
+	<header id="masthead" class="site-header header-pad bg-vanilla flex a justify-sb text-white">
+ 		<h1 class="font-thin text-xl">
+ 		 <span class="font-secondary">Hannah Phillips</span>  <br class="s-hide"><em class="text-n">Ecology & Conservation</em>
+		 </h1>
+
+		 <a href="tel:+44 7925 132363" class="">+44 7925 132363</a>
+	</header>

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@100;200;300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -203,7 +203,7 @@ footer,
   }
 
   .header-pad {
-    padding: 2rem 4vw;
+    padding: 1rem 4vw;
   }
 }
 @media screen and (max-width: 800px) {
@@ -214,7 +214,7 @@ footer,
   }
 
   .header-pad {
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
   }
 }
 @media screen and (max-width: 600px) {
@@ -225,7 +225,7 @@ footer,
   }
 
   .header-pad {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
 }
 .h-full {
@@ -263,7 +263,7 @@ footer,
 }
 
 .bg-vanilla {
-  background-color: #f0f0f0;
+  background-color: #f7dec8;
 }
 
 .bg-grey {
@@ -285,7 +285,7 @@ footer,
 body {
   color: #333;
   font-weight: 200;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -371,7 +371,7 @@ body {
 }
 
 .font-secondary {
-  font-family: arial, cursive;
+  font-family: "Caveat", cursive;
 }
 
 .lh {
@@ -7233,7 +7233,7 @@ section {
   left: 0;
   width: 100%;
   align-items: center;
-  background-color: #efefef;
+  background-color: #214144;
 }
 .site-header .flex {
   justify-content: space-between;
@@ -7811,6 +7811,7 @@ em {
 .home__profile {
   border-radius: 100%;
   max-width: 16rem;
+  height: auto;
   border: 0.45rem solid #6c9a8b;
   margin: auto;
   display: block;

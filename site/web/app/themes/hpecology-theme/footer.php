@@ -16,7 +16,7 @@
 				<div class="row-s justify-sb font-normal">
 					<p>
 						Hannah Phillips,<br>
-						<a href="tel:07925132363">07925132363</a><br>
+						<a href="tel:+44 7925 132363" class="">+44 7925 132363</a><br>
 						Bristol
 					</p>
 					<div clas>
